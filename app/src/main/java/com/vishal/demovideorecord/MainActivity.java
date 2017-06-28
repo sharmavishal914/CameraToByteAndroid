@@ -39,6 +39,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 
+
+        // Vishal sharma
+
         StrictMode.setThreadPolicy(policy);
         m_VideoCaptureView = (android.view.SurfaceView) findViewById(R.id.imgSentView);
 
