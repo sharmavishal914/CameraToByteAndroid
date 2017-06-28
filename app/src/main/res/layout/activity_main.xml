@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etIPAdresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etTEXT"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="Ip adress" />
+
+        <Button
+            android:id="@+id/btnStartVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etTEXT"
+            android:layout_below="@+id/etTEXT"
+            android:text="start video chat" />
+
+        <Button
+            android:id="@+id/btnCameraClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel camera" />
+
+        <ImageView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <SurfaceView
+            android:id="@+id/imgSentView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
