@@ -31,15 +31,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private static final int server_port = 13011;
     byte[] m_buffer;
 
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+
 
 
         // Vishal sharma
